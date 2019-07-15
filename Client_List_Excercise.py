@@ -3,14 +3,18 @@
 sparta_clients = [['RBS', 'nice'], ['Direct Line', 'cool'], ['Spotify', 'very cool'], ['Google', 'exciting'],
                   ['Amazon', 'big'], ['KFC', 'fantastic'], ['Aviva', 'wealthy'], ['Budweiser', 'fun'],
                   ['Netflix', 'famous'], ['Ebay', 'loyal']]
-
+print('Exercise 2:')
+print('----------------Interpolation----------------')
 for x in range(0, 5):
     print(f'{sparta_clients[x][0]} is a {sparta_clients[x][1]} client of Sparta')
+print()
+print('----------------Concatenation----------------')
 for x in range(5, 10):
     print(sparta_clients[x][0] + ' is a ' + sparta_clients[x][1] + ' client of Sparta')
 
 # Exercise 3
-
+print()
+print('Exercise 3:')
 Story = {
     'title': 'The Story of Sparta',
     'author': 'Matthew Mackreth',
