@@ -14,13 +14,15 @@ for x in range(5, 10):
 Story = {
     'title': 'The Story of Sparta',
     'author': 'Matthew Mackreth',
+    'hero': 'Matt',
     'beginning': 'Once upon a time there was a large Dev Ops class that took 2 trainers to teach.',
-    'middle': 'They were expertly taught business skills, SQL skills and python skills by Fillipe and Markson',
+    'middle': 'They were expertly taught business skills, SQL skills and python skills by Fillipe and Markson.',
     'end': 'Then they all got placed and had a great time. The end.'
 }
 
 print(Story['title'])
 print('by' + Story['author'])
+print('The hero of the story is ' + Story['hero'])
 print(Story['beginning']),
 print(Story['middle']),
 print(Story['end'])
