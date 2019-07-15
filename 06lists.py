@@ -35,3 +35,22 @@ print(pokemons)
 print(pokemons.pop(0))
 print(pokemons)
 
+# Removing using a filter
+pokemons.remove('Snorlax')
+# Remove a specific index
+print(pokemons)
+
+# Lists can have any datatypes
+mixed_list = ['Jones', 10, 42, 'John']
+print(type(mixed_list[0]), type(mixed_list[1]))
+
+# Inception list
+leo_d = ['first', 2, ['leo', 'd']]
+print(leo_d[1])
+print(leo_d[2])
+print(leo_d[2][1])
+
+sub_array = leo_d[2]
+print(sub_array[1])
+# All of this is the same as
+print(leo_d[2][1])
