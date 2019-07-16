@@ -54,3 +54,16 @@ sub_array = leo_d[2]
 print(sub_array[1])
 # All of this is the same as
 print(leo_d[2][1])
+
+# Tuples
+# Tuples are immutable lists, meaning they do not change
+# Syntax >> tuple_list{'hello', 10, 13, 4}
+my_tuple = ('eggs', 'bread', 'oats', '10')
+print(my_tuple)
+print(type(my_tuple))
+# Can read from them but not add to them or change them
+
+
+# breakpoint() can be used for debugging and pauses code while running at a given point
+breakpoint()
+
